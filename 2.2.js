@@ -104,7 +104,7 @@ if(y<x &&  x<z ||  z<x && x<y) {
 }else if(x<y &&  y<z || z<y && y<x ){
   alert('Среднее число ' + y)
 }else if(x<z && z<y || y<z && z<x){
-  alert('Среднее число ' + y)
+  alert('Среднее число ' + z)
 }else{
   alert('неправильно')
 }
